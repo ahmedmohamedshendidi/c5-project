@@ -90,9 +90,9 @@ public class MainActivity extends AppCompatActivity {
         alertDialog.show();
     }
     private void saveLanguage(String lang){
-        SharedPreferences sharedPreferences = getSharedPreferences("app pref",MODE_PRIVATE);
+        SharedPreferences sharedPreferences = getSharedPreferences(Constants.APP_PREF,MODE_PRIVATE);
         SharedPreferences.Editor editor = sharedPreferences.edit();
-        editor.putString("app_lang",lang);
+        editor.putString(Constants.APP_LANG,lang);
         editor.apply();
     }
 
