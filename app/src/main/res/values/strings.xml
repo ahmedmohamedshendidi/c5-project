@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Guess the answer</string>
+    <string name="false_text">خطأ</string>
+    <string name="true_text">صحيح</string>
+    <string name="share_question_text">مشاركة السؤال</string>
+    <string name="back_text">الرجوع</string>
+    <string name="share_title_hint">عنوان المشاركة</string>
+    <string name="change_lang_text">تغير اللغة</string>
+    <string name="question">السؤال</string>
+    <string name="game_name">لعبة خمن</string>
+
+    <string-array name="questions">
+        <item>العملة الرسمية لدولة الكويت هي الريال الكويتي؟</item>
+        <item>توبقال هي اعلى قمة جبلية في العالم العربي؟</item>
+        <item>الجزائر هي اكبر دولة عربية من حيث المساحة؟</item>
+        <item>الدار البيضاء هي عاصمة المغرب؟</item>
+    </string-array>
+
+    <string-array name="answers_details">
+        <item>العملة الرسمية لدولة الكويت هي الدينار الكويتي</item>
+        <item>توبقال هي اعلى قمة جبلية في العالم العربي وتقع في المغرب</item>
+        <item>الجزائر هي اكبر دولة عربية من حيث المساحة</item>
+        <item>الرباط هي عاصمة المغرب</item>
+    </string-array>
+
+    <array name="languages">
+        <item>العربية</item>
+        <item>English</item>
+        <item>Francais</item>
+    </array>
+
+</resources>
